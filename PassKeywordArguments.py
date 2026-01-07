@@ -13,7 +13,7 @@ def outer(**outer_kwds):
 lst = [1.111, 2.222, 3.333]
 txt = "Hello World"
 
-outer(a=lst, b=txt) # Python does intern some strings
+outer(a=lst, b=txt)  # Python does intern some strings
 
 
 
