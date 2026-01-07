@@ -11,7 +11,7 @@ def outer(**outer_kwds):
     inner(**outer_kwds)
 
 # Example objects
-lst = [1, 2, 3]
-txt = "hello"
+lst = [1.111, 2.222, 3.333]
+txt = "Hello World"
 
 outer(abcd=lst, efgh=txt)  # Python interns some strings
