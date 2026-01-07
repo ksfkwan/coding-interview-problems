@@ -14,4 +14,4 @@ def outer(**outer_kwds):
 lst = [1, 2, 3]
 txt = "hello"
 
-outer(abcd=lst, efgh=txt)
+outer(abcd=lst, efgh=txt)  # Python interns some strings
